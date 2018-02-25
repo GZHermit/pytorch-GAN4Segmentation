@@ -2,8 +2,8 @@
 from datasets import CityScapes, VOC
 
 datasets = {
-    'voc': VOC,
-    'cityscapes': CityScapes
+    'voc': VOC.VOC2012,
+    'cityscapes': CityScapes.CityScapes
 }
 
 

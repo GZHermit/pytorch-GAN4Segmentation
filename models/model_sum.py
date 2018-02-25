@@ -2,7 +2,7 @@
 
 from models import FCNs, PSPNet, RefineNet
 
-classes = {
+Models = {
     'fcn32s': FCNs.FCN32s,
     'fcn16s': FCNs.FCN16s,
     'fcn8s': FCNs.FCN8s,
@@ -11,5 +11,5 @@ classes = {
 }
 
 
-def get_modelclasses():
-    return classes
+def get_models():
+    return Models
